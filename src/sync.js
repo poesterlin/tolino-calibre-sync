@@ -396,7 +396,7 @@ async function main() {
     }
 
     console.log("Sync process completed.");
-    console.log("Waiting...");
+    console.log("Waiting for 1 hour before next sync...");
 
     // Keep the process alive for a while to see logs
     const syncInterval = 1000 * 60 * 60; // 1 hour
